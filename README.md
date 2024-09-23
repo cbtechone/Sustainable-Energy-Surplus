@@ -74,3 +74,124 @@ This model shows that your system would likely generate more than enough energy 
 Here's the license for it
 
 Sustainable Energy surplus © 2019 by Chad Burdick is licensed under CC BY-NC-ND 4.0 ￼￼￼￼
+
+Updated Model for Buckyball Energy Surplus (V2)
+
+1. Scaling Up the Structure:
+
+In this V2 model, we will continue using a geodesic dome (buckyball) structure to calculate potential solar panel placement and energy output, adding more precise efficiency calculations based on Peltier devices, infrared LEDs, and lens-assisted optimization.
+
+Geodesic Dome Structure:
+
+Standard 60-panel buckyball structure:
+
+12 pentagons (5 triangular panels per pentagon).
+
+20 hexagons (6 triangular panels per hexagon).
+
+
+Total panels:
+
+
+12 \times 5 + 20 \times 6 = 60 \, \text{panels}
+
+Scaling Frequency: By subdividing the faces (increasing the frequency), we can easily scale up to 240 or more panels.
+
+
+
+---
+
+2. Surface Area and Panel Count:
+
+Let's calculate the surface area of the buckyball using different radii to estimate how many panels can fit.
+
+Radius (): Start with 1 meter (100 cm) radius.
+
+The surface area of a sphere is:
+
+
+\text{Surface Area} = 4 \pi r^2
+
+\text{Surface Area} = 4 \pi (100)^2 \approx 12,566 \, \text{cm}^2
+
+Each 6-inch triangular panel (approx. 15.24 cm per side) has an area:
+
+
+\text{Panel Area} = \frac{\sqrt{3}}{4} \times (15.24)^2 \approx 100.2 \, \text{cm}^2
+
+For a 1-meter radius buckyball, the number of panels that can fit:
+
+
+\frac{12,566 \, \text{cm}^2}{100.2 \, \text{cm}^2} \approx 125 \, \text{panels}
+
+For a 2-meter radius buckyball, the surface area doubles:
+
+
+\text{Surface Area} = 4 \pi (200)^2 \approx 50,265 \, \text{cm}^2
+
+\frac{50,265 \, \text{cm}^2}{100.2 \, \text{cm}^2} \approx 500 \, \text{panels}
+
+
+---
+
+3. Energy Output Calculation:
+
+For each 6-inch triangular solar panel, let's assume an output of 0.6 W based on the efficiency of your panel design.
+
+1-meter buckyball (125 panels):
+
+
+\text{Total Power} = 125 \times 0.6 \, \text{W} = 75 \, \text{W}
+
+2-meter buckyball (500 panels):
+
+
+\text{Total Power} = 500 \times 0.6 \, \text{W} = 300 \, \text{W}
+
+
+---
+
+4. Infrared LED Power Consumption:
+
+Assuming you're running 10 infrared LEDs, each consuming 2 W:
+
+\text{Total Power Consumption (LEDs)} = 10 \times 2 \, \text{W} = 20 \, \text{W}
+
+
+---
+
+5. Peltier Plate Integration:
+
+Peltier devices can be integrated into your system to manage heat or potentially generate extra electricity by converting thermal energy. Let's assume the following:
+
+Peltier Efficiency (COP): 
+
+Heat Removal Capacity: 
+
+
+For each Peltier device, the total power recovered could be small (5-10% of the thermal energy), but cooling the panels would prevent efficiency loss.
+
+
+---
+
+6. Overall Efficiency and Surplus:
+
+For a 1-meter buckyball with 125 panels, generating 75 W:
+
+You could easily power the 20 W required by the LEDs, leaving an additional 55 W for other uses (or a buffer for power losses and inefficiencies).
+
+
+For a 2-meter buckyball with 500 panels, generating 300 W:
+
+You have a significant energy surplus of 280 W after accounting for the LEDs.
+
+
+
+---
+
+Conclusion:
+
+In this updated model (V2), a 1-meter buckyball would comfortably power your system with a small energy surplus, while a 2-meter buckyball would provide a significant surplus, making it highly efficient for powering additional systems or storing energy.
+
+This can be further optimized by fine-tuning the placement of lenses and improving the efficiency of the IR LEDs and Peltier modules.
+
